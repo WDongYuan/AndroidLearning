@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.example.lesson3_transmsgact.MainActivity">
+
+    <EditText
+        android:id="@+id/main_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This is the first activity." />
+
+    <EditText
+        android:id="@+id/user_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mike"/>
+
+    <EditText
+        android:id="@+id/user_age"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="22"/>
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Go to the second activity."/>
+
+    <Button
+        android:id="@+id/Call_Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Call Someone"/>
+
+    <Button
+        android:id="@+id/Send_Msg_Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Send Message"/>
+
+    <Button
+        android:id="@+id/Take_Pic_Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Camera"/>
+</LinearLayout>
