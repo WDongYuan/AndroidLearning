@@ -22,6 +22,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         ListView lv = (ListView) findViewById(R.id.mylistview);
+        
         datalist = new ArrayList<UserInfo>();
         for(int i=0; i<50; i++){
             UserInfo ui = new UserInfo("Student #"+i,i%2==0?"Male":"Female",10+i);
